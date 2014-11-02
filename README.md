@@ -2,7 +2,9 @@ SubtitledVideo
 ==============
 
 > Subtitled video for xml schema
-> Use this to add subtitles to any video.
+> Use this to add subtitles to any video. Based on the [TTLM1](http://www.w3.org/TR/ttaf1-dfxp/) schema for captioning video files.
+>
+> Uses the JWPlayer with the Captions plugin, which requires an Internet connection.
 
 ##Languages
 
