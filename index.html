@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Video</title>
+  <style type="text/css">
+    body{ width:100%; height:100%; margin:0; padding:0; background:#000; color:#FFF; }
+    #msg{
+      margin:30px auto;
+      width:300px;  
+    }
+    #player{
+      position:relative;  
+    }
+    #overlay{
+      position:absolute;
+      top:7px;
+      right:6px;
+      width:120px;
+      height:20px;
+      z-index:99;   
+    }
+    #playerContainer{
+      width:100%;
+      height:100%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="playerContainer">Cargando...</div>
+
+  <script type='text/javascript' src='lib/audio/jwplayer.js'></script>
+    
+  <script type='text/javascript'>
+    jwplayer('playerContainer').setup({
+    	'flashplayer': 	'lib/audio/player.swf',
+    	'width':	'100%',
+    	'height':	'100%',
+      // Reemplaza a continuacion el numero de tu video (1, 2 o 5)
+    	'file':		'lib/video/h/5.flv',
+    	'autostart': 'true',
+    	'dock': 'false',
+    	'plugins': {
+    	  'captions-2': {
+    		  'file': 'subs.xml'
+    	  }
+    	}
+    });
+  </script>
+</body>
+</html>
