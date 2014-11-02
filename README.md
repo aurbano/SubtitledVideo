@@ -6,8 +6,8 @@ SubtitledVideo
 
 ##Languages
 
-* English
-* Español
+* [English](#english-guide)
+* [Español](#guia-en-espa%C3%B1ol)
 
 #English guide
 
