@@ -40,3 +40,5 @@ Puedes descargar las escenas del HitlerCreator aqui: https://mega.co.nz/#F!ds0AU
 I have created this repository as a way to easily get your subtitled videos back after taking down the online tool.
 
 If anyone creates a new version of the site let me know and I'll add a link to that.
+
+[![Analytics](https://ga-beacon.appspot.com/UA-3181088-16/SubtitledVideo/readme)](https://github.com/aurbano)
