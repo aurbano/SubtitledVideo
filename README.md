@@ -6,12 +6,12 @@ SubtitledVideo
 >
 > Uses the JWPlayer with the Captions plugin, which requires an Internet connection.
 
-##Languages
+## Languages
 
 * [English](#english-guide)
 * [Español](#guia-en-espa%C3%B1ol)
 
-#English guide
+# English guide
 
 1. Download this repository: https://github.com/aurbano/SubtitledVideo/archive/master.zip
 2. Add the video file to the folder `/lib/video`.
@@ -23,7 +23,7 @@ If you want to share this subtitled video easily, copy the whole thing to your D
 
 You can download some common scenes from the movie Downfall here: https://mega.co.nz/#F!ds0AUZZa!r96EJpdgpapaE6hkBxXWbQ
 
-#Guia en español
+# Guia en español
 
 1. Descarga este repositorio: https://github.com/aurbano/SubtitledVideo/archive/master.zip
 2. Añade el archivo del video a la carpeta `/lib/video`
